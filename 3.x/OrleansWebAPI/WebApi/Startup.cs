@@ -77,7 +77,7 @@ namespace WebApi
                 .UseAdoNetClustering(options =>
                 {
                     options.Invariant = "MySql.Data.MySqlClient";
-                    options.ConnectionString = "server=localhost;port=3306;database=orleans;user id=root;password=;SslMode=none;";
+                    options.ConnectionString = "server=localhost;port=3306;database=orleans;user id=root;password=23e54E;";
                 })
                 .Configure<ClusterOptions>(options =>
                 {

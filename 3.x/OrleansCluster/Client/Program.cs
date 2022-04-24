@@ -15,7 +15,7 @@ namespace Client
         private const string ServiceId = "OrleansSample";
 
         private const string Invariant = "MySql.Data.MySqlClient";
-        private const string ConnectionString = "server=localhost;port=3306;database=orleans;user id=root;password=;SslMode=none;";
+        private const string ConnectionString = "server=localhost;port=3306;database=orleans;user id=root;password=23e54E;";
 
         private const int InitializeAttemptsBeforeFailing = 5;
         private static int attempt = 0;
