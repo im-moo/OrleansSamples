@@ -65,6 +65,7 @@ namespace Silo
                     options.ClusterId = ClusterId;
                     options.ServiceId = ServiceId;
                 })
+                .UseDashboard()
                 .ConfigureEndpoints(siloPort: siloPort, gatewayPort: gatewayPort)
                 .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(PersonGrain).Assembly).WithReferences())
                 .ConfigureLogging(log => log.SetMinimumLevel(LogLevel.Warning).AddConsole());
