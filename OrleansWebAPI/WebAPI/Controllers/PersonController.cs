@@ -13,7 +13,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         public string SayHello(string name)
         {
-            return new Business.Persion().SayHello(name);
+            return new Business.Person().SayHello(name);
         }
     }
 }
